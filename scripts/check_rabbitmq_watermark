@@ -64,12 +64,12 @@ $p->add_arg(spec => 'vhost=s',
     default => "/"
 );
 
-$p->add_arg(spec => 'ssl|ssl!',
+$p->add_arg(spec => 'ssl!',
     help => "Use SSL (default: false)",
     default => 0
 );
 
-$p->add_arg(spec => 'proxy|proxy!',
+$p->add_arg(spec => 'proxy!',
     help => "Use environment proxy (default: true)",
     default => 1
 );
